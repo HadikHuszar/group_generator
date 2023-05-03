@@ -629,7 +629,7 @@ form {
   cursor: pointer;
   z-index: 0;
   color: white;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 42px;
   height: 42px;
 }
