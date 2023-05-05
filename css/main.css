@@ -630,8 +630,10 @@ form {
   z-index: 0;
   color: white;
   border-radius: 100%;
-  width: 42px;
-  height: 42px;
+  /* width: 42px;
+  height: 42px; */
+  width: 1.7em;
+  height: 1.7em;
 }
 
 .groupsize-button:hover {
@@ -687,6 +689,7 @@ form {
   align-items: center;
   justify-self: start;
 }
+
 .copy_icon {
   left: 1em;
   top: 1em;
@@ -696,6 +699,11 @@ form {
 
 .copy_icon:hover {
   content: url(../images/copy_hover.png);
+  margin-left: 0px;
+}
+
+.copy_icon:active {
+  content: url(../images/copy_click.png);
   margin-left: 0px;
 }
 
